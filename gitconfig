@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = anju.mogi@gmail.com
+	name = Anju Mogi
