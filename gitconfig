@@ -51,4 +51,9 @@
   rebase = false
 [user]
 	email = anju.mogi@gmail.com
-	name = Anju Mogi
+	name = 88181896+ansanigom@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

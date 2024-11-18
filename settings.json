@@ -22,6 +22,12 @@
         "erb": "html"
     },
     "emmet.triggerExpansionOnTab": true,
+    "[erb]": {
+      "editor.formatOnSave": true
+    },
+    "files.associations": {
+      "*.erb": "erb"
+    },
     "explorer.confirmDelete": false,
     "window.restoreWindows": "none",
     "workbench.settings.editor": "json",
@@ -75,5 +81,22 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+      "*.sqlite3": "sqlite.view"
+    },
+    "editor.guides.indentation": false,
+    "workbench.colorCustomizations": {
+      "editor.lineHighlightBackground": "#1073cf2d",
+      "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.inlayHints.enabled": false,
+    "blockman.n04ColorComboPreset": "Classic Dark Oppo (Gradients)",
+    "editor.guides.bracketPairs": false,
+    "files.autoSave": "afterDelay",
+    "blockman.n01LineHeight": 0,
+    "bracketPairColorizer.depreciation-notice": false
 }
